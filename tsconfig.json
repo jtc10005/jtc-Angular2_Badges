@@ -1,9 +1,8 @@
 {
     "compilerOptions": {
         "noImplicitAny": true,
-        "module": "system",
-        "moduleResolution": "node",
-        "target": "ES5",
+        "module": "commonjs",
+        "target": "ES6",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": true,
@@ -13,7 +12,6 @@
         "jtc-angular2_badges.ts"
     ],
     "exclude": [
-        "node_modules",
-        "jspm_packages"
+        "node_modules"
     ]
 }
