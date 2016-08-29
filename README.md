@@ -1,9 +1,10 @@
 ### jtc-Angular2_Badges
 ___
+Latest version: 1.0.5
 Simple badge module for Angular 2.
 ___
 How to use:
-from NPM run: `npm install jtc-Angular2_Badges --save`</li>    
+from NPM run: `npm install jtc-angular2_badges --save`</li>    
 Add to your module directives.</li>
 Add: 
 ```
