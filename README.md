@@ -1,6 +1,6 @@
 ### jtc-Angular2_Badges
 ___
-Latest version: 1.0.5
+Latest version: 1.0.6
 Simple badge module for Angular 2.
 ___
 How to use:

@@ -1,6 +1,6 @@
 {
   "name": "jtc-angular2_badges",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "badge component for Angular 2",
   "main": "index.js",
   "typings": "./jtc-angular2_badges.d.ts",
