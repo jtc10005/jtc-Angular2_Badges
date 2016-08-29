@@ -1,1 +1,1 @@
-export * from "./src/jtcBadges"
+export * from "./src/badge.module"

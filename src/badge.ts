@@ -1,9 +1,9 @@
-import { Component, Input, OnInit} from '@angular/core';
+﻿import { Component, Input, OnInit} from '@angular/core';
 
 
 @Component({
     selector: 'jtc-Badge',
-    templateUrl: '/jtcBadges.html'
+    templateUrl: '/badge.html'
 })
 export class jtcBadge implements OnInit {
 
