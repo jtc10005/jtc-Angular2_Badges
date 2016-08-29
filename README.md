@@ -9,7 +9,6 @@ ___
 <ul>
 ___
 text is the text to appear in the badge.
-___
 type is the stylings to be applied to the badge.
 
 There are several different badge stylings:
