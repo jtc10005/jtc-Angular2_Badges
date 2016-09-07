@@ -1,1 +1,1 @@
-export * from "./src/badge.module"
+﻿export * from './src/badge.module';

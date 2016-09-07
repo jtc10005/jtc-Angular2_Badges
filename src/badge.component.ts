@@ -1,51 +1,49 @@
-﻿import { Component, Input, OnInit} from '@angular/core';
+﻿import { Component, Input, OnInit } from '@angular/core';
 
 
 @Component({
     selector: 'jtc-Badge',
-    template:`<span [class]="jtcClass">{{text}}</span>
-<style>
-    .jtc-badge-primary {
-        background-color: #337ab7 !important;
-    }
+    styles: [`
+     .jtc-badge-primary {
+            background-color: #337ab7 !important;
+        }
 
-    .jtc-badge-error {
-        background-color: #d9534f !important;
-    }
+        .jtc-badge-error {
+            background-color: #d9534f !important;
+        }
 
-    .jtc-badge-default {
-        background-color: #777 !important;
-    }
+        .jtc-badge-default {
+            background-color: #777 !important;
+        }
 
-    .jtc-badge-info {
-        background-color: #5bc0de !important;
-    }
+        .jtc-badge-info {
+            background-color: #5bc0de !important;
+        }
 
-    .jtc-badge-warning {
-        background-color: #f0ad4e !important;
-    }
+        .jtc-badge-warning {
+            background-color: #f0ad4e !important;
+        }
 
-    .jtc-badge-success {
-        background-color: #5cb85c !important;
-    }
+        .jtc-badge-success {
+            background-color: #5cb85c !important;
+        }
 
-    .jtc-badge {
-/*bookstrap formatting*/
-        display: inline;
-        padding: .2em .6em .3em;
-        font-size: 75%;
-        font-weight: 700;
-        line-height: 1;
-        color: #fff;
-        text-align: center;
-        white-space: nowrap;
-        vertical-align: baseline;
-        border-radius: .25em;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-
-
-    }
-</style>`,
+        .jtc-badge {
+            /*bookstrap formatting*/
+            display: inline;
+            padding: .2em .6em .3em;
+            font-size: 75%;
+            font-weight: 700;
+            line-height: 1;
+            color: #fff;
+            text-align: center;
+            white-space: nowrap;
+            vertical-align: baseline;
+            border-radius: .25em;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        }
+`],
+    template: `<span [class]="jtcClass">{{text}}</span>`,
 })
 export class jtcBadge implements OnInit {
 
